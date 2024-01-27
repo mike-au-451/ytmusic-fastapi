@@ -27,6 +27,6 @@ then
 fi
 source bin/activate
 
-pip install fastapi jinja2 ytmusicapi uvicorn
+pip install fastapi jinja2 ytmusicapi uvicorn gunicorn
 
 echo source bin/activate
